@@ -1,5 +1,5 @@
 provider "aws" {
-  profile = "default"
-  region  = "ap-south-1"
-  source  = "/home/ec2-user/.aws/credentials"
-  }
+access_key = var.AWS_ACCESS_KEY
+secret_key = var.AWS_SECRET_KEY
+region = "ap-south-1"
+}
